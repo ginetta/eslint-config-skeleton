@@ -3,12 +3,7 @@
   "version": "0.1.1",
   "description": "Ginetta Skeleton eslint config",
   "main": "index.js",
-  "keywords": [
-    "eslint",
-    "eslint config",
-    "skeleton",
-    "ginetta"
-  ],
+  "keywords": ["eslint", "eslint config", "skeleton", "ginetta"],
   "peerDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.1.2",
@@ -19,13 +14,11 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.4.0",
-    "eslint-plugin-react": "^7.5.1"
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.9.2",
+    "prettier-eslint": "^8.7.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ginetta/skeleton.git"
-  },
-  "author": "",
+  "author": "Bruno Lourenço",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -38,6 +31,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.4.0",
     "eslint-plugin-react": "^7.5.1",
-    "install": "^0.8.7"
+    "prettier": "^1.9.2",
+    "prettier-eslint": "^8.7.0"
   }
 }

@@ -6,6 +6,11 @@ Airbnb eslint config with Prettier support.
 
 ## Installation
 
+Create a `.eslintrc` file with the following:
+```yml
+extends: 'eslint-config-skeleton'
+```
+
 ### OSX/Linux
 ```bash
 (

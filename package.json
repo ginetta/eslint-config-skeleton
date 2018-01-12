@@ -1,0 +1,43 @@
+{
+  "name": "eslint-config-skeleton",
+  "version": "0.0.54",
+  "description": "Ginetta Skeleton eslint config",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint config",
+    "skeleton",
+    "ginetta"
+  ],
+  "peerDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-eslint": "^8.1.2",
+		"eslint": "^4.15.0",
+		"eslint-config-airbnb": "^16.1.0",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-config-react-app": "^2.0.1",
+		"eslint-plugin-import": "^2.8.0",
+		"eslint-plugin-jsx-a11y": "^6.0.3",
+		"eslint-plugin-prettier": "^2.4.0",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginetta/skeleton.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-eslint": "^8.1.2",
+		"eslint": "^4.15.0",
+		"eslint-config-airbnb": "^16.1.0",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-config-react-app": "^2.0.1",
+		"eslint-plugin-import": "^2.8.0",
+		"eslint-plugin-jsx-a11y": "^6.0.3",
+		"eslint-plugin-prettier": "^2.4.0",
+    "eslint-plugin-react": "^7.5.1",
+    "install": "^0.8.7"
+  }
+}

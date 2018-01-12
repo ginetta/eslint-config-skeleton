@@ -1,9 +1,14 @@
 {
   "name": "eslint-config-skeleton",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Ginetta Skeleton eslint config",
   "main": "index.js",
-  "keywords": ["eslint", "eslint config", "skeleton", "ginetta"],
+  "keywords": [
+    "eslint",
+    "eslint config",
+    "skeleton",
+    "ginetta"
+  ],
   "peerDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.1.2",

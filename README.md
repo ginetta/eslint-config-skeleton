@@ -1,6 +1,6 @@
 # Skeleton Eslint config
 
-[![npm version](https://badge.fury.io/js/eslint-eslint-config-skeleton.svg)](http://badge.fury.io/js/eslint-eslint-config-skeleton)
+[![npm version](https://badge.fury.io/js/eslint-config-skeleton.svg)](http://badge.fury.io/js/eslint-config-skeleton)
 
 Airbnb eslint config with Prettier support.
 

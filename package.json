@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-skeleton",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Ginetta Skeleton eslint config",
   "main": "index.js",
   "keywords": [

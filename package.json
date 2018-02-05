@@ -38,5 +38,17 @@
     "eslint-plugin-react": "^7.5.1",
     "prettier": "^1.9.2",
     "prettier-eslint": "^8.7.0"
-  }
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginetta/eslint-config-skeleton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ginetta/eslint-config-skeleton/issues"
+  },
+  "homepage": "https://github.com/ginetta/eslint-config-skeleton#readme"
 }

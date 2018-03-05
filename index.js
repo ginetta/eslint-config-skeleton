@@ -34,7 +34,7 @@ module.exports = {
         allow: ['_id', '_modified', '_created', '_order', '_by'],
       },
     ],
-    'jsx-a11y/href-no-hash': false,
+    'jsx-a11y/href-no-hash': 0,
     'jsx-a11y/anchor-is-valid': [
       'warn',
       {

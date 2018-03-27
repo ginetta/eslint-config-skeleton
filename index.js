@@ -28,6 +28,7 @@ module.exports = {
         extensions: ['.js', '.jsx'],
       },
     ],
+    'react/prefer-stateless-function': 0,
     'no-underscore-dangle': [
       'error',
       {
@@ -44,15 +45,15 @@ module.exports = {
     'no-multiple-empty-lines': [2, { max: 1 }],
     // Specify the maximum number of statement allowed in a function
     // (off by default)
-    'max-statements': [1, 15],
+    'max-statements': [1, 25],
     // Specify the maximum depth that blocks can be nested (off by default)
-    'max-depth': [1, 2],
+    'max-depth': [1, 3],
     // Specify the maximum cyclomatic complexity allowed in a program
     // (off by default)
-    complexity: [1, 5],
+    complexity: [1, 7],
     // Limits the number of parameters that can be used in the function
     // declaration. (off by default)
-    'max-params': [1, 3],
+    'max-params': [1, 4],
     // Specify the maximum depth callbacks can be nested (off by default)
     'max-nested-callbacks': [1, 2],
   },

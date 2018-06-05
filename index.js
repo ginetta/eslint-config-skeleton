@@ -22,6 +22,7 @@ module.exports = {
         trailingComma: 'all',
       },
     ],
+    'react/forbid-prop-types': 'warn',
     'react/jsx-filename-extension': [
       1,
       {
@@ -29,13 +30,18 @@ module.exports = {
       },
     ],
     'react/prefer-stateless-function': 0,
-    'no-underscore-dangle': [
-      'error',
-      {
-        allow: ['_id', '_modified', '_created', '_order', '_by'],
-      },
-    ],
-    'jsx-a11y/href-no-hash': 0,
+    'new-cap': 'off',
+    'no-plusplus': 'off',
+    // Often used when dealing with custom object creators for private variables
+    'no-underscore-dangle': 'off',
+    // Array destructuring is super unclear and not readable
+    'prefer-destructuring': ['error', {
+      'array': false,
+      'object': true
+    }],
+    // We often create util files with only one function (that get populated afterwards)
+    'import/prefer-default-export': 'off'
+    'jsx-a11y/href-no-hash': 'off',
     'jsx-a11y/anchor-is-valid': [
       'warn',
       {
